@@ -1,0 +1,48 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "src.nbcook.com",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.9.1",
+    "applicationType": "monolith",
+    "baseName": "NBCook",
+    "packageName": "src.nbcook.com",
+    "packageFolder": "src/nbcook/com",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZWVlMmVlMTY3MDNmMGYwMmUyYWVlMzI3MmY1OTA4MmQ0YzQzZGQ5M2ZiNDc0YWUwNDBjNDlmMWJmMzZjZGViMjdiZWZiOTUwYWQwZjMwYmUxYWU0ZTNjN2Y4ODQxY2MzOGY0ODhmM2VhMGU3N2Q5NmQ4Yjk4YWVkOTBlMjdiNDQ=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "solar",
+    "clientThemeVariant": "dark",
+    "creationTimestamp": 1592585937074,
+    "testFrameworks": ["gatling", "protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-codegen",
+        "version": "0.3.1"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "cs", "nl", "fr", "de", "pt-pt", "ru", "es"],
+    "blueprints": []
+  }
+}
